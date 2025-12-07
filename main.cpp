@@ -1,4 +1,6 @@
 #include <iostream>
+#include "asignacion.h"
+#include "mochila.h"
 #include "recurso.h"
 #include "tsp.h"
 
@@ -19,29 +21,27 @@ int main() {
 
         switch (op) {
             case 1:
-                cout << "\n No implementado.\n";
+                menuAsignacion();
                 break;
 
             case 2:
-                menuRecurso();   
+                menuRecurso();
                 break;
 
             case 3:
-                cout << "\n No implementado.\n";
+                menuMochila();
                 break;
 
             case 4:
-                menuTSP();   
+                menuTSP();
                 break;
 
             case 0:
+                cout << "Saliendo...\n";
                 return 0;
 
             default:
                 cout << "Opcion invalida.\n";
-                break;
         }
     }
-
-    return 0;
 }
