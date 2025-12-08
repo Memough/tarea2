@@ -7,7 +7,8 @@
 using namespace std;
 
 int main() {
-    int op;
+    unoauno unoAuno;
+    mochila Bag;
 
     while (true) {
         cout << "\n========== MENU PRINCIPAL ==========\n";
@@ -21,7 +22,8 @@ int main() {
 
         switch (op) {
             case 1:
-                menuAsignacion();
+                unoAuno.readM();
+                unoAuno.menu();
                 break;
 
             case 2:
@@ -29,7 +31,8 @@ int main() {
                 break;
 
             case 3:
-                menuMochila();
+                Bag.readM();
+                Bag.menu();
                 break;
 
             case 4:
