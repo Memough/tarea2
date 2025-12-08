@@ -18,6 +18,7 @@ int main() {
         cout << "4) Problema del Vendedor\n";
         cout << "0) Salir\n";
         cout << "Seleccione opcion: ";
+        int op;
         cin >> op;
 
         switch (op) {
