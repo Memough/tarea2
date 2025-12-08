@@ -1,4 +1,4 @@
-main: test.cpp
+main: main.cpp
 	g++ asignacion.cpp main.cpp mochila.cpp recurso.cpp tsp.cpp -o main
 
 .PHONY: memcheck
